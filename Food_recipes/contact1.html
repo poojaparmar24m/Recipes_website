@@ -1,0 +1,237 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title> Contact Me1</title>
+       <link rel="stylesheet" href="../css/bootstrap.css">
+       <!-- <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous"> -->
+       <link rel="stylesheet" href="../css/Font_awosome/fontawesome-free-5.15.4-web/fontawesome-free-5.15.4-web/css/all.css">
+       <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/sweetalert2@11.4.7/dist/sweetalert2.min.css">
+  <link rel="stylesheet" href="../Food_recipes/contact.css">
+</head>
+
+<body>
+    <div class="bgimg sticky-top">
+            <nav class="navbar  navbar-expand-lg navbar-dark bg-dark">
+                <div class="container-fluid">
+                    <a class="navbar-brand text-uppercase text-center cmp1" href="../index.html">recipes</a>
+                    
+      <button class="navbar-toggler" data-bs-toggle="collapse" data-bs-target="#mynav" aria-label="Toggle navigation" type="button">
+           <span class=" navbar-toggler-icon"></span> 
+      </button>
+                    
+      <div class="collapse navbar-collapse" id="mynav">
+          <ul class="navbar-nav ms-auto text-center">
+            <li class="nav-item">
+              <a class="nav-link active" href="../index.html">
+                  Home  
+               </a>
+           </li>
+          <li class="nav-item dropdown">
+           <a class="nav-link dropdown-toggle" href="#" data-bs-toggle="dropdown">Food Recipe </a>
+            <ul class="dropdown-menu text-center ">
+               <li>
+               <a class="dropdown-item" href="../Food_recipes/Ifr.html">Indian Food Dishes</a>
+               </li>
+               <li>
+               <a class="dropdown-item" href="#"> South Indian Food Dishes</a>
+               </li>
+               <li>
+               <a class="dropdown-item" href="#">Panjabi Food Dishes</a>
+               </li>
+               <li>
+               <a class="dropdown-item" href="#">Chinese Food Dishes</a>
+               </li>
+               <li>
+               <a class="dropdown-item" href="#">Italian Food Dishes</a>
+               </li>
+            </ul>
+         </li>
+         
+           <li class="nav-item dropdown">
+             <a class="nav-link dropdown-toggle" href="#" data-bs-toggle="dropdown">Sweet Recipe </a>
+             <ul class="dropdown-menu text-center">
+              <li>
+               <a class="dropdown-item" href="../Food_recipes/Isd.html">Indian Sweet Dishes</a>
+               </li>
+               <li>
+               <a class="dropdown-item" href="#"> South Indian Sweet Dishes</a>
+               </li>
+               <li>
+               <a class="dropdown-item" href="#">Panjabi Sweet Dishes</a>
+               </li>
+               <li>
+               <a class="dropdown-item" href="#">Chinese Sweet Dishes</a>
+               </li>
+               <li>
+               <a class="dropdown-item" href="#">Italian Sweet Dishes</a>
+               </li>
+            </ul>
+           </li>
+             <li class="nav-item dropdown">
+             <a class="nav-link dropdown-toggle" href="#" data-bs-toggle="dropdown">Dessert Recipe </a>
+                 <ul class="dropdown-menu text-center">
+               <li>
+               <a class="dropdown-item" href="../Food_recipes/Idd.html">Indian Dessert</a>
+               </li>
+               <li >
+               <a class="dropdown-item" href="#"> South Indian Dessert</a>
+               </li>
+               <li>
+               <a class="dropdown-item" href="#">Panjabi Dessert</a>
+               </li>
+               <li>
+               <a class="dropdown-item" href="#">Chinese Dessert</a>
+               </li>
+               <li>
+               <a class="dropdown-item" href="#">Italian Dessert</a>
+               </li>
+            </ul>
+           </li>
+               <li class="nav-item">
+             <a class="nav-link" href="../Food_recipes/contact1.html">contact us </a>
+           </li>
+      </ul> 
+      </div>
+     </div>
+    </nav>  
+    </div>
+
+    <section class="section1">
+        <div class="container-fluid">
+           <div class="row justify-content-center ">
+               <div class="col-xl-6 col-lg-7 col-md-9 col-sm-10 col-11">
+                   <div class="card ">
+                     <img src="../Image/back3.jpg" class="card-img-top" alt="">
+                     <div class="card-img-overlay">
+                           <h2 class="text-uppercase text-center">contact us</h2>
+                     </div>
+
+                     <div class="container-fluid">
+                       <div class="row justify-content-center">
+                          <div class="col-xl-12 col-lg-12 col-md-12 col-sm-12 col-12">
+                            <form id="myform" name="form1" class="form_class" action="#">
+                              <div class="input-group">
+                                  <span class="input-group-text" id="basic-addon1">First Name</span>
+                                  <input type="text" class="form-control first" id="first1"  name="fname" aria-label="Username"  aria-describedby="basic-addon1"  onclick="validation(this.value)" onchange="validation(this.value)">
+                                  <span class="valid1"></span>
+                                  <p class="valid2"></p>
+                              </div>
+                              <div class="input-group sp1">
+                                <span class="input-group-text" id="basic-addon1">Last Name</span>
+                                <input type="text" class="form-control last"  name="lname" aria-label="Username"  aria-describedby="basic-addon1"  onclick="validation(this.value)" onchange="validation(this.value)">
+                                <span class="valid1"></span>
+                                <p class="valid2"></p>
+                            </div>
+                            <div class="input-group sp1">
+                              <span class="input-group-text" id="basic-addon1">Email Id</span>
+                              <input type="email" class="form-control email" name="email" aria-label="Username"  aria-describedby="basic-addon1"  onclick="validation(this.value)" onchange="validation(this.value)">
+                              <span class="valid1"></span>
+                              <p class="valid2"></p>
+                          </div>
+                          <div class="input-group sp1">
+                            <span class="input-group-text" id="basic-addon1">Phone Number</span>
+                            <input type="number" class="form-control number" name="number" aria-label="Username"  aria-describedby="basic-addon1" onclick="validation(this.value)" onchange="validation(this.value)">
+                            <span class="valid1"></span>
+                            <p class="valid2"></p>
+                        </div>
+                        <div class="input-group sp1">
+                          <span class="input-group-text msg1">Massage</span>
+                          <textarea class="form-control msg" name="msg" aria-label="With textarea" onclick="validation(this.value)" onchange="validation(this.value)"></textarea>
+                          <span class="valid1"></span>
+                          <p class="valid2"></p>
+                        </div>
+                      
+                        <div class="input-group text-center">
+                          <button type="button" class="btn btn-primary" onclick="submit_by_class()" >submit</button>
+                         </div>
+                        
+                      </form>
+                          </div>
+                       </div>
+                        
+                        
+                     </div>
+               </div>
+        </div>
+</div>
+</div>
+</section>
+
+
+    <div class="footer_sec bg-light">
+        <div class="container-fluid">
+          <div class="row justify-content-center align-items-center fr1 ">
+               <div class="col-xl-1 col-lg-1 col-md-1 col-sm-1 col-1  text-center">
+                <a href="#" class="text-white"><i class="fab fa-instagram"></i></a>
+                </div>
+                <div class="col-xl-1 col-lg-1 col-md-1 col-sm-1 col-1   text-center">
+                <a href="#" class="text-white" ><i class="fab fa-whatsapp"></i></a>
+                </div>
+                 <div class="col-xl-1 col-lg-1 col-md-1 col-sm-1 col-1   text-center">
+                <a href="#" class="text-white"><i class="fab fa-linkedin-in"></i></a>
+                </div>
+                 <div class="col-xl-1 col-lg-1 col-md-1 col-sm-1 col-1   text-center">
+                <a href="#" class="text-white" ><i class="fab fa-github"></i></a>
+                </div>
+                 <div class="col-xl-1 col-lg-1 col-md-1 col-sm-1 col-1  text-center  ">
+                <a href="#" class="text-white"><i class="fab fa-google"></i></a>
+                </div>
+                 <div class="col-xl-1 col-lg-1 col-md-1 col-sm-1 col-1  text-center ">
+                <a href="#" class="text-white"><i class="fab fa-pinterest"></i></a>
+                </div>
+            </div>
+          <div class="row bg-dark text-white foot1 justify-content-center fr2">
+              <div class="col-xl-4 col-lg-5 col-md-6 col-sm-6 col-12">
+                
+               <h5 class="text-center text-uppercase "> Useful Links </h5>
+               <hr class=" m-auto text-white-50">
+       <ul class="nav flex-column nav-justified ">
+            
+              <li class="nav-item">
+               <a class="nav-link text-reset" href="Index.html"> Home</a>
+             </li>
+            <li class="nav-item ">
+               <a class="nav-link text-reset"  href="#">About Devloper </a>
+          </li>
+          <li class="nav-item ">
+             <a class="nav-link text-reset" href="#">Feedback</a>
+             </li>
+         <li class="nav-item">
+          <a class="nav-link text-reset" href="../Food_recipes/contact1.html">contect us </a>
+       </li>
+                     
+              </ul>
+              </div>
+              
+              <div class="col-xl-4 col-lg-5 col-md-6 col-sm-6 col-12  " >
+                  <h5 class="text-center text-uppercase"> contact </h5>
+                  <hr class="m-auto text-white-50">
+                  
+                   <span> <i class="fas fa-home Home
+               "></i>Ahemdabad,308578,Gujarat.</span><br>
+               
+               
+               <span><i class="fas fa-envelope Envelope"></i>pxxxa@gmail.com</span><br>
+                   
+                   <span class="rem"> <i class="fas fa-phone Phone"></i>91xxxxxx73
+                   </span>
+              </div>
+            </div>
+          <div class="row  text-white text-center copy1 fr3 ">
+               <div class="col-xl-12 col-lg-12 col-md-12 col-sm-12 ">
+                <span class=" text-center"><i class="far fa-copyright"></i> 2021 Food Recipes. All rights reserved |</span>
+               </div>
+           </div>
+          </div>
+          </div>
+        
+   </body>
+   <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.9.3/dist/umd/popper.min.js"></script>
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.0/dist/js/bootstrap.min.js"></script>
+<script src="https://cdn.jsdelivr.net/npm/sweetalert2@11.4.7/dist/sweetalert2.min.js"></script>
+   <script src="../Food_recipes/contact.js"></script>
+   </html>
+   

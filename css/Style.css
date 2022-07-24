@@ -1,0 +1,1757 @@
+*{
+  box-sizing: border-box;
+ /* font-family:'Courier New', Courier, monospace;*/
+ font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+  margin:0;
+  padding:0;
+  
+}
+body{
+  overflow-x: hidden;
+}
+
+
+ #mynav .navbar-nav .nav-item.dropdown .dropdown-menu{
+   background-color:#555555;
+   
+   margin-top: 17px;
+  /* width: 100%;*/
+  } 
+
+  #mynav .navbar-nav .nav-item.dropdown .dropdown-menu li a{
+    color: white;
+    font-size: 20px;
+  }
+  #mynav .navbar-nav .nav-item.dropdown .dropdown-menu li a:hover{
+    background-color:#555555 ;
+  }
+  #mynav .dropdown-toggle::after{
+    vertical-align: 0.100em;
+  }
+ 
+.bgimg #mynav ul li{
+  margin-right: 20px;
+}
+ 
+ .bgimg #mynav ul li a{
+   font-size: 23px;
+  letter-spacing: 1px;
+   }
+ .bgimg nav .container-fluid .cmp1{
+   color: #F48FB1;
+   text-shadow: 2px 2px 4px #000000;
+   
+   letter-spacing: 1px;
+  padding: 10px 15px;
+   font-style: italic;
+   font-weight: bold;
+   font-size:30px!important
+   }
+  
+ /*.section-1 {
+   margin-top:5px;
+ }*/
+.carousel-item{
+  background:no-repeat scroll center scroll;
+  background-size: cover;
+  position: relative;
+}
+.carousel-item img{
+   margin: 0;
+   padding: 0;
+   width: 100%;
+  height: 600px;
+}
+.carousel-item::before{
+  content:"";
+  display: block;
+  position: absolute;
+  top:0;
+  left: 0;
+  bottom: 0;
+  right: 0;
+  background: #000;
+  opacity: 0.7;
+}
+
+.caption h2{
+  position: absolute;
+  top: 43%;
+  left: 23%;
+  font-size: 57px;
+  color: white;
+  font-style:italic;
+}
+
+ .carousel-inner .carousel-item{
+   position:relative;
+ }
+
+ /* start media query for navbar or carosoul*/
+
+ @media (min-width:1300px) and (max-width:1370px){
+  .caption h2{
+    position: absolute;
+    top: 43%;
+    left:18%;
+    font-size: 57px;
+    color: white;
+    font-style:italic;
+  }
+  #mynav .navbar-nav .nav-item.dropdown .dropdown-menu{
+    background-color:#555555;
+    margin-top: 20px;
+  } 
+  .carousel-item img{
+    margin: 0;
+    padding: 0;
+    width: 100%;
+   height: 600px;
+ }
+ }
+ @media (min-width:1200px) and (max-width:1282px){
+  .bgimg #mynav ul li a{
+    font-size: 21px;
+   letter-spacing: 1px;
+    }
+
+    .bgimg #mynav ul li{
+      margin-right: 15px;
+    }
+    #mynav .navbar-nav .nav-item.dropdown .dropdown-menu{
+      background-color:#555555;
+      margin-top: 20px;
+    } 
+
+    .caption h2{
+      position: absolute;
+      top: 43%;
+      left:15%;
+      font-size: 57px;
+      color: white;
+      font-style:italic;
+    }
+    .carousel-item img{
+      margin: 0;
+      padding: 0;
+      width: 100%;
+     height: 600px;
+   }
+ }
+ @media (min-width:1100px) and (max-width:1200px){
+  .bgimg #mynav ul li a{
+    font-size: 20px;
+   letter-spacing: 1px;
+    }
+    .bgimg #mynav ul li{
+      margin-right: 10px;
+    }
+    #mynav .navbar-nav .nav-item.dropdown .dropdown-menu{
+      background-color:#555555;
+      margin-top: 20px;
+    } 
+    .caption h2{
+      position: absolute;
+      top: 43%;
+      left:13%;
+      font-size: 57px;
+      color: white;
+      font-style:italic;
+    }
+    .carousel-item img{
+      margin: 0;
+      padding: 0;
+      width: 100%;
+     height: 600px;
+   }
+ }
+
+ @media (min-width:1050px) and (max-width:1100px){
+  .bgimg #mynav ul li a{
+    font-size: 20px;
+   letter-spacing: 1px;
+    }
+    .bgimg #mynav ul li{
+      margin-right: 10px;
+    }
+    #mynav .navbar-nav .nav-item.dropdown .dropdown-menu{
+      background-color:#555555;
+      margin-top: 20px;
+    } 
+    #mynav .navbar-nav .nav-item.dropdown .dropdown-menu li a{
+      color: white;
+      font-size: 19px;
+    }
+    .caption h2{
+      position: absolute;
+      top: 43%;
+      left:11%;
+      font-size: 57px;
+      color: white;
+      font-style:italic;
+    }
+    .carousel-item img{
+      margin: 0;
+      padding: 0;
+      width: 100%;
+     height: 600px;
+   }
+ }
+ @media (min-width:991px) and (max-width:1050px){
+  .bgimg #mynav ul li a{
+    font-size: 19px;
+   letter-spacing: 1px;
+    }
+    .bgimg #mynav ul li{
+      margin-right: 10px;
+    }
+    #mynav .navbar-nav .nav-item.dropdown .dropdown-menu{
+      background-color:#555555;
+      margin-top: 20px;
+    } 
+    .caption h2{
+      position: absolute;
+      top: 43%;
+      left:8%;
+      font-size: 57px;
+      color: white;
+      font-style:italic;
+    }
+    .carousel-item img{
+      margin: 0;
+      padding: 0;
+      width: 100%;
+     height: 600px;
+   }
+}
+
+@media (min-width:900px) and (max-width:991px){
+  .bgimg #mynav ul li a{
+    font-size: 19px;
+   letter-spacing: 1px;
+    }
+    #mynav .navbar-nav .nav-item.dropdown .dropdown-menu{
+    margin-left: 1%;
+    margin-right:0;
+    margin-top: 5px;
+    width: 100%;
+    align-items: center;
+    justify-content: center;
+     } 
+     .caption h2{
+      position: absolute;
+      top: 43%;
+      left:9%;
+      font-size: 52px;
+      color: white;
+      font-style:italic;
+    }
+    .carousel-item img{
+      margin: 0;
+      padding: 0;
+      width: 100%;
+     height: 500px;
+   }
+}
+
+@media (min-width:800px) and (max-width:900px){
+  .bgimg #mynav ul li a{
+    font-size: 18px;
+   letter-spacing: 1px;
+    }
+    #mynav .navbar-nav .nav-item.dropdown .dropdown-menu{
+      margin-left: 2%;
+      margin-right:0;
+      margin-top: 5px;
+      width: 100%;
+      align-items: center;
+      justify-content: center;
+      } 
+      
+      #mynav .navbar-nav .nav-item.dropdown .dropdown-menu li a{
+        font-size: 19px;
+      }
+      .caption h2{
+        position: absolute;
+        top: 43%;
+        left:10%;
+        font-size: 45px;
+        color: white;
+        font-style:italic;
+      }
+
+      .carousel-item img{
+        margin: 0;
+        padding: 0;
+        width: 100%;
+       height: 500px;
+     }
+    }
+
+@media (min-width:750px) and (max-width:800px){
+  .bgimg #mynav ul li a{
+    font-size: 18px;
+   letter-spacing: 1px;
+    }
+
+    #mynav .navbar-nav .nav-item.dropdown .dropdown-menu li a{
+      font-size: 18px;
+    }
+    #mynav .navbar-nav .nav-item.dropdown .dropdown-menu{
+      margin-left: 2%;
+      margin-right:0;
+      margin-top: 5px;
+      width: 100%;
+      align-items: center;
+      justify-content: center;
+      } 
+      .caption h2{
+        position: absolute;
+        top: 42%;
+        left:9%;
+        font-size: 43px;
+        color: white;
+        font-style:italic;
+      }
+      .carousel-item img{
+        margin: 0;
+        padding: 0;
+        width: 100%;
+       height: 470px;
+     }
+      
+}
+@media (min-width:650px) and (max-width:750px){
+  .bgimg #mynav ul li a{
+    font-size: 17px;
+   letter-spacing: 1px;
+    }
+    #mynav .navbar-nav .nav-item.dropdown .dropdown-menu li a{
+      font-size: 17px;
+    }
+    #mynav .navbar-nav .nav-item.dropdown .dropdown-menu{
+      margin-left: 1%;
+      margin-right:0;
+      margin-top: 5px;
+      width: 100%;
+      align-items: center;
+      justify-content: center;
+      } 
+      .caption h2{
+        position: absolute;
+        top: 43%;
+        left:7%;
+        font-size: 38px;
+        color: white;
+        font-style:italic;
+      }
+      .carousel-item img{
+        margin: 0;
+        padding: 0;
+        width: 100%;
+       height: 430px;
+     }
+}
+@media (min-width:550px) and (max-width:650px){
+
+  .bgimg #mynav ul li a{
+    font-size: 17px;
+   letter-spacing: 1px;
+    }
+    #mynav .navbar-nav .nav-item.dropdown .dropdown-menu li a{
+      font-size: 17px;
+    }
+    #mynav .navbar-nav .nav-item.dropdown .dropdown-menu{
+      margin-left: 2%;
+      margin-right:0;
+      margin-top: 5px;
+      width: 100%;
+      align-items: center;
+      justify-content: center;
+      } 
+      .caption h2{
+        position: absolute;
+        top: 41%;
+        left:3%;
+        font-size: 36px;
+        color: white;
+        font-style:italic;
+      }
+      .carousel-item img{
+        margin: 0;
+        padding: 0;
+        width: 100%;
+       height: 380px;
+     }
+}
+@media (min-width:450px) and (max-width:550px){
+  .bgimg #mynav ul li a{
+    font-size: 17px;
+   letter-spacing: 1px;
+    }
+    #mynav .navbar-nav .nav-item.dropdown .dropdown-menu li a{
+      font-size: 17px;
+    }
+    #mynav .navbar-nav .nav-item.dropdown .dropdown-menu{
+      margin-left: 2%;
+      margin-right:0;
+      margin-top: 5px;
+      width: 100%;
+      align-items: center;
+      justify-content: center;
+      } 
+  .caption h2{
+    position: absolute;
+    top: 41%;
+    left:-4px;
+    font-size: 35px;
+    color: white;
+    font-style:italic;
+    
+  }
+  .carousel-item img{
+    margin: 0;
+    padding: 0;
+    width: 100%;
+   height: 350px;
+ }
+}
+/* end media query for header and carosoual*/
+
+
+
+/*1st about chaf*/
+
+  .about_chef{
+    margin-top: 16px;
+    padding-top: 30px;
+    padding-bottom: 30px;
+    display: block;
+  }
+ .about_chef h1{
+   letter-spacing:1px;
+   font-style:italic;
+   font-family:Georgia;
+   margin-bottom: 0;
+ }
+ .about_chef hr{
+   color: gray;
+   padding: 1px;
+  
+  }
+  .about_chef .col-1{
+    width: 50px;
+  }
+  .about_chef .col-2{
+    width: 150px;
+  }
+  .about_chef .fo1{
+     background-color: transparent;
+     color: grey;
+     font-size: 130%;
+   padding-left: 0;
+   padding-right: 0;
+    margin: 0;
+   }
+  .about_chef .chaf1{
+    width: 100%;
+  }
+ .about_chef img{
+   height:250px;
+}
+ .about_chef .card1 {
+   margin-top:1.5rem; 
+   width: 74%;
+   margin-left: 12.5%;
+ }
+ .about_chef .card1 .box-1{
+   width: 300px;
+   margin-right: 5px;
+   
+ }
+ .about_chef .card2 .box-1{
+  width: 300px;
+  margin-right: 5px;
+  
+}
+  .about_chef  .card p{
+    font-family:cursive;
+  }
+  .about_chef  .card h4{
+   letter-spacing:1px;
+   
+  }
+   .about_chef .card2 {
+     margin-top:1rem;  
+     width: 74%;
+   margin-left: 12.5%;
+   }
+
+   /*2nd about chaf*/
+   .about_chef1{
+    margin-top: 16px;
+    padding-top: 30px;
+    padding-bottom: 30px;
+    display:none;
+  }
+ .about_chef1 h1{
+   letter-spacing:1px;
+   font-style:italic;
+   font-family:Georgia;
+   margin-bottom: 0;
+ }
+ .about_chef1 hr{
+   color: gray;
+   padding: 1px;
+  
+  }
+  .about_chef1 .col-1{
+    width: 50px;
+  }
+  .about_chef1 .col-2{
+    width: 150px;
+  }
+  .about_chef1 .fo1{
+     background-color: transparent;
+     color: grey;
+     font-size: 130%;
+   padding-left: 0;
+   padding-right: 0;
+    margin: 0;
+   }
+  .about_chef1 .chaf1-1{
+    width: 100%;
+  }
+ .about_chef1 img{
+   height:250px;
+}
+ .about_chef1 .card1-1 {
+   margin-top:1.5rem; 
+   width: 74%;
+   margin-left: 12.5%;
+}
+ .about_chef1 .card2-1 {
+  margin-top:1rem;  
+  width: 74%;
+margin-left: 12.5%;
+
+}
+.about_chef1 .card3-1 {
+ margin-top:1rem;  
+ width: 74%;
+margin-left: 12.5%;
+
+}
+ .about_chef1 .card1-1 .box-1-1{
+   width: 300px;
+   margin-right:5px;
+   margin-left: 55%;
+ }
+ .about_chef1 .card2-1 .box-1-1{
+  width: 300px;
+  margin-right: 5px;
+  margin-left: 55%;
+}
+.about_chef1 .card3-1 .box-1-1{
+  width: 300px;
+  margin-right: 5px;
+  margin-left: 55%;
+}
+  .about_chef1  .card p{
+    font-family:cursive;
+  }
+  .about_chef1  .card h4{
+   letter-spacing:1px;
+   
+  }
+  
+ 
+    /* start media query for about chaf*/
+    @media (min-width:1200px) and (max-width:1400px){
+      .about_chef img{
+        height:250px;
+     }
+     .about_chef .card1 .box-1{
+      width: 280px;
+      margin-right: 10px;
+      }
+    .about_chef .card2 .box-1{
+     width: 280px;
+     margin-right: 10px;
+     }
+     .about_chef .card1 {
+      margin-top:1.5rem; 
+      width: 78%;
+      margin-left: 10%;
+    }
+    .about_chef .card2 {
+      margin-top:1rem; 
+      width: 78%;
+    margin-left: 10%;
+    }
+    }
+
+    @media (min-width:992px) and (max-width:1200px){
+      .about_chef .card1 .box-1{
+        width: 250px;
+        margin-right: 15px;
+        }
+      .about_chef .card2 .box-1{
+       width: 250px;
+       margin-right: 15px;
+       }
+       .about_chef .card1 {
+        margin-top:1.5rem; 
+        width: 83%;
+        margin-left: 8%;
+      }
+      .about_chef .card2 {
+        margin-top:1rem; 
+        width: 83%;
+      margin-left: 8%;
+      }
+    }
+  
+
+    @media (min-width:768px) and (max-width:992px){
+       .about_chef img{
+        height:220px;
+     }
+      .about_chef .card1 .box-1{
+        width: 225px;
+        margin-right: 5px;
+        }
+      .about_chef .card2 .box-1{
+       width: 225px;
+       margin-right: 5px;
+       }
+       .about_chef .card1 {
+        margin-top:1.5rem; 
+        width: 100%;
+        margin-left: -1%;
+      }
+      .about_chef .card2 {
+        margin-top:1rem; 
+        width: 100%;
+        margin-left: -1%;
+      }
+      .about_chef  .card p{
+        font-family:cursive;
+        font-size: 15px;
+      }
+      .about_chef  .card h4{
+       letter-spacing:1px;
+       font-size: 20px;
+       
+      }
+
+    }
+    
+    
+  @media (min-width:576px) and (max-width:768px){
+     .about_chef{
+       display: none;
+     }
+      .about_chef1{
+        display: block;
+      }
+     
+    .about_chef1 .card1-1 .box-1-1{
+        width: 250px;
+      
+       margin-left: -10px;
+      }
+      .about_chef1 .card2-1 .box-1-1{
+       width: 250px;
+       margin-left: -10px;
+       
+     }
+     .about_chef1 .card3-1 .box-1-1{
+       width: 250px;
+      
+       margin-left: -10px;
+     }
+     .about_chef1 img{
+      height:220px;
+   }
+   .about_chef1 .card1-1 {
+    margin-top:1.5rem; 
+    width: 100%;
+    margin-left: 1%;
+ }
+  .about_chef1 .card2-1 {
+   margin-top:1rem;  
+   width:100%;
+   margin-left: 1%;
+ }
+ .about_chef1 .card3-1 {
+  margin-top:1rem;  
+  width: 100%;
+  margin-left: 1%;
+ }
+ }
+
+ @media (min-width:400px) and (max-width:576px){
+  .about_chef .card1 .box-1{
+    width: 250px;
+    margin-left: 40px;
+    margin-top: 10px;
+    }
+  .about_chef .card2 .box-1{
+   width: 250px;
+   margin-left: 40px;
+   margin-top: 10px;
+   }
+   .about_chef .card2 {
+    margin-top:0.10rem;  
+    width: 74%;
+  margin-left: 12.5%;
+  }
+ }
+
+  
+  
+   .recipes-gallery{
+     background-color:#F5F5F5;
+     margin-top: 1.5rem;
+     padding: 1.5rem 0 1.5rem 0;
+   }
+ 
+   .recipes-gallery h1{
+     color:#3B3131;
+     text-shadow: 0px 0px 1px #000000;
+     font-size: 45px!important;
+ }
+  .recipes-gallery hr{
+    padding: 2px ;
+    margin-bottom: 1rem;
+    width: 27%;
+  }
+  .recipes-gallery .row{
+    margin-top: 1rem;
+  }
+  .recipes-gallery .tasty{
+    margin-top: 3px;
+  }
+  .recipes-gallery .row{ 
+   position: relative;
+   
+ }
+.recipes-gallery .row  img{
+   opacity: 0.9;
+   cursor: pointer; 
+ }
+.recipes-gallery .row  .demotext h6{
+ position: absolute;
+  top:76%;
+ height:30%;
+background-color:rgba(255,255,255,0.3);
+color:#301934;
+font-family:cursive;
+ padding-top: 18px; 
+ padding-left:4%;
+ padding-right:5%;
+ text-align: center;
+ letter-spacing: 1px;
+  opacity: 0;
+  
+}
+.recipes-gallery .row  .demotext .change1{
+  padding-top: 10px;
+  padding-left:2%;
+ padding-right: 2%;
+
+}
+.recipes-gallery .row  .demotext .change2{
+  padding-top: 10px; 
+  padding-left:1.2%;
+ padding-right: 1.2%;
+ 
+}
+.recipes-gallery .row  .demotext .change3{
+  padding-top: 18px;
+  padding-left:6%; 
+ padding-right: 6%;
+}
+.recipes-gallery .row  .demotext .change4{
+  padding-top:18px;
+  padding-left:5%;
+ padding-right: 7%;
+}
+.recipes-gallery .row  .demotext .change5{
+  padding-top: 18px;
+  padding-left:8.4%;
+ padding-right:8.4%;
+}
+.recipes-gallery .row  .demotext .change6{
+  padding-top:18px;
+  padding-left:6.7%;
+ padding-right:6.7%;
+}
+  
+
+.recipes-gallery .row :hover .demotext .change1{
+  opacity: 1;
+  transition:1s ease;
+   font-size:19px!important;
+   cursor: pointer;
+ }
+.recipes-gallery .row :hover .demotext h6{
+  opacity: 1;
+  transition:1s ease;
+  font-size:19px!important;
+  cursor: pointer;
+  }
+
+  /*Start media query for recipe gallery*/
+  @media (min-width:1200px) and (max-width:1400px){
+    .recipes-gallery hr{
+      padding: 2px ;
+      margin-bottom: 1rem;
+      width:31%;
+     }
+    .recipes-gallery .row :hover .demotext .change1{
+      opacity: 1;
+      transition:1s ease;
+       font-size:18px!important;
+       cursor: pointer;
+    }
+    .recipes-gallery .row  .demotext .change1{
+      padding-top: 7px;
+      padding-left:1%;
+     padding-right: 1%;
+    }
+    .recipes-gallery .row  .demotext .change3{
+      padding-top: 18px;
+      padding-left:4.5%; 
+     padding-right: 5%;
+    }
+    .recipes-gallery .row  .demotext .change4{
+      padding-top:18px;
+      padding-left:4%;
+     padding-right: 5%;
+    }
+    .recipes-gallery .row  .demotext .change5{
+      padding-top: 18px;
+      padding-left:7.7%;
+     padding-right:7.7%;
+    }
+    .recipes-gallery .row  .demotext .change2{
+      padding-top: 10px; 
+      padding-left:0.5%;
+     padding-right: 1%;
+     }
+    .recipes-gallery .row :hover .demotext  .change2{
+      font-size:17px!important;
+    }
+    .recipes-gallery .row  .demotext h6{
+      padding-left:3%;
+      padding-right:5%;
+    }
+    .recipes-gallery .row  .demotext .change6{
+      padding-top:18px;
+      padding-left:5.8%;
+     padding-right:5.7%;
+    }
+ }
+
+ @media (min-width:992px) and (max-width:1200px){
+  .recipes-gallery h1{
+     font-size: 42px!important;
+    }
+    .recipes-gallery .row  .demotext h6{
+      top:74%;
+ height:30%;
+    }
+.recipes-gallery hr{
+  padding: 2px ;
+  margin-bottom: 1rem;
+  width:33%;
+ }
+ .recipes-gallery .row :hover .demotext .change1{
+  opacity: 1;
+  transition:1s ease;
+   font-size:15px!important;
+   cursor: pointer;
+}
+.recipes-gallery .row  .demotext .change1{
+  padding-top: 5px;
+  padding-left:0.75%;
+ padding-right: 0.75%;
+}
+.recipes-gallery .row :hover .demotext h6{
+  font-size:18px!important;
+}
+.recipes-gallery .row  .demotext .change3{
+  padding-top: 11px;
+  padding-left:3.7%; 
+ padding-right: 4%;
+}
+.recipes-gallery .row  .demotext .change4{
+  padding-top:11px;
+  padding-left:3%;
+ padding-right: 4%;
+}
+.recipes-gallery .row  .demotext .change5{
+  padding-top: 11px;
+  padding-left:7%;
+ padding-right:7%;
+}
+.recipes-gallery .row :hover .demotext  .change2{
+  font-size:14px!important;
+}
+.recipes-gallery .row  .demotext .change2{
+  padding-top: 8px; 
+  padding-left:0.5%;
+ padding-right: 0.5%;
+ 
+ }
+ .recipes-gallery .row  .demotext h6{
+  padding-left:1.5%;
+  padding-right:2%;
+}
+.recipes-gallery .row  .demotext .change6{
+  padding-top:13px;
+  padding-left:5%;
+ padding-right:5%;
+}
+
+ }
+
+ @media (min-width:768px) and (max-width:992px){
+  .recipes-gallery h1{
+    font-size: 40px!important;
+   }
+   .recipes-gallery hr{
+    padding: 2px ;
+    margin-bottom: 1rem;
+    width:40%;
+   }
+   .recipes-gallery .row  .demotext h6{
+     top:70%;
+     height:31%;
+   }
+   .recipes-gallery .row :hover .demotext .change1{
+    opacity: 1;
+    transition:1s ease;
+     font-size:11px!important;
+     cursor: pointer;
+  } 
+  .recipes-gallery .row  .demotext .change1{
+    padding-top: 5px;
+    padding-left:0.25%;
+   padding-right: 0.25%;
+  } 
+  .recipes-gallery .row :hover .demotext h6{
+    font-size:14px!important;
+  } 
+  .recipes-gallery .row  .demotext .change3{
+    padding-top: 11px;
+    padding-left:2.7%; 
+   padding-right: 3%;
+  }
+  .recipes-gallery .row  .demotext .change4{
+    padding-top:11px;
+    padding-left:1%;
+   padding-right: 2.7%;
+  }
+  .recipes-gallery .row  .demotext .change5{
+    padding-top: 11px;
+    padding-left:6.5%;
+   padding-right:6%;
+  }
+  .recipes-gallery .row :hover .demotext  .change2{
+    font-size:10px!important;
+  }
+  .recipes-gallery .row  .demotext .change2{
+    padding-top: 8px; 
+    padding-left:0.2%;
+   padding-right: 0.2%;
+   }
+   .recipes-gallery .row  .demotext h6{
+    padding-left:0.50%;
+    padding-right:0.50%;
+    padding-top: 12px; 
+  }
+  .recipes-gallery .row  .demotext .change6{
+    padding-top:11px;
+    padding-left:4.5%;
+   padding-right:4%;
+  }
+ 
+ }
+ @media (min-width:576px) and (max-width:768px){
+  .recipes-gallery h1{
+    font-size: 39px!important;
+   }
+   .recipes-gallery hr{
+    padding: 2px ;
+    margin-bottom: 1rem;
+    width:58%;
+   }
+   .recipes-gallery .row :hover .demotext .change1{
+    opacity: 1;
+    transition:1s ease;
+     font-size:16px!important;
+     cursor: pointer;
+  } 
+  .recipes-gallery .row  .demotext .change1{
+    padding-top: 6px;
+    padding-left:2%;
+   padding-right:2%;
+   top:35%;
+   height:40%;
+  
+  }
+  .recipes-gallery .row :hover .demotext h6{
+    font-size:17px!important;
+    transition:1s ease;
+    opacity: 1;
+  }  
+  .recipes-gallery .row  .demotext .change3{
+    padding-top: 16px;
+    padding-left:10%; 
+   padding-right: 10%;
+   top:37%;
+   height:30%;
+ }
+ .recipes-gallery .row  .demotext .change4{
+  padding-top:13px;
+  padding-left:8%;
+ padding-right: 8%;
+ top:87%;
+ height:30%;
+}
+.recipes-gallery .row  .demotext .change5{
+  padding-top: 13px;
+  padding-left:16%;
+ padding-right:16%;
+ top:88%;
+ height:30%;
+}
+.recipes-gallery .row :hover .demotext  .change2{
+  font-size:16.5px!important;
+}
+.recipes-gallery .row  .demotext .change2{
+  padding-top: 11px; 
+  padding-left:0.2%;
+ padding-right: 0.2%;
+ top:35%;
+ height:40%;
+ }
+.recipes-gallery .row .demotext .change7{
+  padding-left:6.2%;
+    padding-right:6%;
+    padding-top: 14px;
+    top:36%;
+    height:40%;
+}
+.recipes-gallery .row .demotext .change8{
+  padding-left:6.2%;
+    padding-right:6%;
+    padding-top: 14px;
+    top:88%;
+    height:30%;
+}
+.recipes-gallery .row  .demotext .change6{
+  padding-top:13px;
+  padding-left:12%;
+ padding-right:12%;
+ top:88%;
+    height:30%;
+}
+ }
+ @media (min-width:550px) and (max-width:576px){
+  .recipes-gallery h1{
+    font-size: 39px!important;
+   }
+   .recipes-gallery hr{
+    padding: 2px ;
+    margin-bottom: 1rem;
+    width:60%;
+   }
+   .recipes-gallery .row :hover .demotext .change1{
+    opacity: 1;
+    transition:1s ease;
+     font-size:16px!important;
+     cursor: pointer;
+  } 
+  .recipes-gallery .row  .demotext .change1{
+    padding-top: 6px;
+    padding-left:3%;
+   padding-right:4%;
+   top:35%;
+   height:40%;
+  }
+  .recipes-gallery .row :hover .demotext h6{
+    font-size:16.2px!important;
+    transition:1s ease;
+    opacity: 1;
+  }  
+  .recipes-gallery .row  .demotext .change3{
+    padding-top: 14px;
+    padding-left:10.9%; 
+   padding-right: 10.9%;
+   top:37%;
+   height:30%;
+ }
+ .recipes-gallery .row :hover .demotext  .change3{
+  font-size:15.2px!important;
+}
+ .recipes-gallery .row  .demotext .change4{
+  padding-top:13px;
+  padding-left:9.2%;
+ padding-right: 9.2%;
+ top:87%;
+ height:30%;
+}
+.recipes-gallery .row  .demotext .change5{
+  padding-top: 13px;
+  padding-left:16.7%;
+ padding-right:16.7%;
+ top:88%;
+ height:30%;
+}
+.recipes-gallery .row :hover .demotext  .change5{
+  font-size:15px!important;
+}
+.recipes-gallery .row :hover .demotext  .change2{
+  font-size:14px!important;
+}
+.recipes-gallery .row  .demotext .change2{
+  padding-top: 11px; 
+  padding-left:4.5%;
+ padding-right: 4.5%;
+ top:35%;
+ height:40%;
+ }
+ .recipes-gallery .row :hover .demotext  .change7{
+  font-size:16.2px!important;
+}
+ .recipes-gallery .row .demotext .change7{
+  padding-left:8%;
+    padding-right:8%;
+    padding-top: 14px;
+    top:36%;
+    height:40%;
+}
+.recipes-gallery .row :hover .demotext  .change8{
+  font-size:16.2px!important;
+}
+.recipes-gallery .row .demotext .change8{
+  padding-left:8%;
+    padding-right:8%;
+    padding-top: 14px;
+    top:88%;
+    height:30%;
+}
+.recipes-gallery .row  .demotext .change6{
+  padding-top:13px;
+  padding-left:13%;
+ padding-right:13%;
+ top:88%;
+    height:30%;
+}
+.recipes-gallery .row :hover .demotext  .change6{
+  font-size:15px!important;
+}
+ }
+ @media (min-width:500px) and (max-width:550px){
+  .recipes-gallery h1{
+    font-size: 39px!important;
+   }
+   .recipes-gallery hr{
+    padding: 2px ;
+    margin-bottom: 1rem;
+    width:60%;
+   }
+   .recipes-gallery .row :hover .demotext .change1{
+    opacity: 1;
+    transition:1s ease;
+     font-size:14px!important;
+     cursor: pointer;
+  } 
+  .recipes-gallery .row  .demotext .change1{
+    padding-top: 8px;
+    padding-left:3.8%;
+   padding-right:3.8%;
+   top:35%;
+   height:40%;
+  }
+  .recipes-gallery .row  .demotext .change3{
+    padding-top: 10px;
+    padding-left:14%; 
+   padding-right: 14%;
+   top:37%;
+   height:30%;
+ }
+ .recipes-gallery .row :hover .demotext  .change3{
+  font-size:14px!important;
+}
+.recipes-gallery .row  .demotext .change4{
+  top:87%;
+  padding-top:12px;
+ height:30%;
+ padding-left:9.7%;
+ padding-right: 9.7%;
+}
+.recipes-gallery .row :hover .demotext  .change4{
+  font-size:15px!important;
+}
+.recipes-gallery .row  .demotext .change5{
+  padding-top: 12px;
+  padding-left:17%;
+ padding-right:17%;
+ top:87%;
+ height:30%;
+}
+.recipes-gallery .row :hover .demotext  .change5{
+  font-size:14px!important;
+}
+.recipes-gallery .row :hover .demotext  .change2{
+  font-size:13px!important;
+}
+.recipes-gallery .row  .demotext .change2{
+  padding-top: 11px; 
+  padding-left:3.7%;
+ padding-right: 3.7%;
+ top:35%;
+ height:40%;
+ }
+ .recipes-gallery .row :hover .demotext  .change7{
+  font-size:15px!important;
+}
+ .recipes-gallery .row .demotext .change7{
+  padding-left:9%;
+    padding-right:9%;
+    padding-top: 12px;
+    top:36%;
+    height:40%;
+}
+.recipes-gallery .row :hover .demotext  .change8{
+  font-size:15px!important;
+}
+.recipes-gallery .row .demotext .change8{
+  padding-left:8%;
+    padding-right:8%;
+    padding-top: 14px;
+    top:88%;
+    height:30%;
+}
+.recipes-gallery .row  .demotext .change6{
+  padding-top:11px;
+  padding-left:15%;
+ padding-right:15%;
+ top:88%;
+    height:30%;
+}
+.recipes-gallery .row :hover .demotext  .change6{
+  font-size:14px!important;
+}
+
+ }
+
+
+  
+  
+.special_sec{
+  background-color:#EEE9E9;
+  margin-top: 1.5rem;
+  padding:1.5rem 0 1.5rem 0;
+}
+.special_sec h1{
+  color: #32174d;
+  text-shadow:0px 0px 1px #000000;
+  letter-spacing: 1px;
+}
+  .special_sec hr{
+    padding: 2px;
+    color: #a99a86;
+    width: 20%;
+  }
+   .special_sec .container .row{
+     margin-top: 0.50rem;
+   }
+ .special_sec .container .row .s1{
+   font-size:150%;
+   /*margin: 3px;*/
+   color:red;
+   padding-left: 80px;
+  }
+  .special_sec .container .row .s2{
+    font-size:150%;
+    /*margin: 3px;*/
+    color:red;
+    padding-right: 80px;
+   }
+  
+ .special_sec .container .row .pera1{
+   letter-spacing: 1px;
+  font-family: Monaco;
+   font-style: italic;
+   color: #556b2f; 
+   margin-top: 1rem;
+}
+.special_sec .cup1{
+  margin-top: 0.50rem;
+}
+
+.special_sec .cup1 figure{
+  margin-top: 1rem;
+}
+.special_sec .container .row figure  .mi1 {
+  font-size: 125px;
+  color:#00d100; 
+  padding: -20px;
+}
+
+.special_sec .container .row figure .mtext2{
+   letter-spacing: 1px;
+   color:#343434;
+   text-shadow: 0px 0px 1px #000000;
+   font-size:28px;
+   padding-left: 5px;
+   padding-right:5px;
+}
+
+/* Start media query for special section*/
+
+@media (min-width:1200px) and (max-width:1400px){
+  .special_sec .container .row .s1{
+    font-size:150%;
+    /*margin: 3px;*/
+    color:red;
+    padding-left: 50px;
+   }
+   .special_sec .container .row .s2{
+     font-size:150%;
+     /*margin: 3px;*/
+     color:red;
+     padding-right: 51px;
+    }
+    .special_sec .container .row figure  .mi1 {
+      font-size: 122px;
+      color:#00d100; 
+      padding: -20px;
+    }
+    .special_sec .container .row figure .mtext2{
+      letter-spacing: 1px;
+      color:#343434;
+      text-shadow: 0px 0px 1px #000000;
+      font-size:27px;
+      padding-left: 5px;
+      padding-right:5px;
+   }
+   .special_sec .container .row .pera1{
+    letter-spacing: 1px;
+   font-family: Monaco;
+    font-style: italic;
+    color: #556b2f; 
+    margin-top: 0.97rem;
+ }
+}
+@media (min-width:992px) and (max-width:1200px){
+  .special_sec hr{
+    padding: 2px;
+    color: #a99a86;
+    width: 25%;
+  }
+  .special_sec .container .row .s1{
+    font-size:150%;
+    /*margin: 3px;*/
+    color:red;
+    padding-left: 55px;
+   }
+   .special_sec .container .row .s2{
+     font-size:150%;
+     /*margin: 3px;*/
+     color:red;
+     padding-right: 55px;
+    }
+    
+    .special_sec .container .row figure  .mi1 {
+      font-size: 120px;
+      color:#00d100; 
+      padding: -20px;
+    }
+    .special_sec .container .row figure .mtext2{
+      letter-spacing: 1px;
+      color:#343434;
+      text-shadow: 0px 0px 1px #000000;
+      font-size:26px;
+      padding-left: 5px;
+      padding-right:5px;
+   }
+}
+
+@media (min-width:768px) and (max-width:992px){
+  .special_sec h1{
+    color: #32174d;
+    text-shadow:0px 0px 1px #000000;
+    letter-spacing: 1px;
+    font-size: 37px;
+  }
+  .special_sec hr{
+    padding: 2px;
+    color: #a99a86;
+    width: 32%;
+  }
+  .special_sec .container .row .s1{
+    font-size:140%;
+    /*margin: 3px;*/
+    color:red;
+    padding-left: 35px;
+   }
+   .special_sec .container .row .s2{
+    font-size:140%;
+    /*margin: 3px;*/
+    color:red;
+    padding-right: 57px;
+   }
+   .special_sec .container .row .pera1{
+    letter-spacing: 1px;
+   font-family: Monaco;
+    font-style: italic;
+    font-size: 17px;
+    color: #556b2f; 
+    margin-top: 0.97rem;
+ }
+ .special_sec .container .row figure  .mi1 {
+  font-size: 100px;
+  color:#00d100; 
+  padding: -20px;
+}
+.special_sec .container .row figure .mtext2{
+  letter-spacing: 1px;
+  color:#343434;
+  text-shadow: 0px 0px 1px #000000;
+  font-size:24px;
+  padding-left: 5px;
+  padding-right:5px;
+}
+}
+
+@media (min-width:576px) and (max-width:768px){
+  .special_sec h1{
+    color: #32174d;
+    text-shadow:0px 0px 1px #000000;
+    letter-spacing: 1px;
+    font-size: 35px;
+  }
+  .special_sec hr{
+    padding: 2px;
+    color: #a99a86;
+    width: 39%;
+  }
+  .special_sec .container .row .s1{
+    font-size:139%;
+    /*margin: 3px;*/
+    color:red;
+    padding-left: 21px;
+   }
+   .special_sec .container .row .s2{
+    font-size:139%;
+    /*margin: 3px;*/
+    color:red;
+    padding-right:55px;
+    
+   }
+   .special_sec .container .row .pera1{
+    letter-spacing: 1px;
+   font-family: Monaco;
+    font-style: italic;
+    font-size: 17px;
+    color: #556b2f; 
+    margin-top: 0.97rem;
+ }
+ .special_sec .container .row figure  .mi1 {
+  font-size: 100px;
+  color:#00d100; 
+  padding: -20px;
+}
+.special_sec .container .row figure .mtext2{
+  letter-spacing: 1px;
+  color:#343434;
+  text-shadow: 0px 0px 1px #000000;
+  font-size:24px;
+  padding-left: 5px;
+  padding-right:5px;
+}
+}
+
+@media (min-width:461px) and (max-width:576px){
+  .special_sec h1{
+    color: #32174d;
+    text-shadow:0px 0px 1px #000000;
+    letter-spacing: 1px;
+    font-size: 32px;
+  }
+  .special_sec hr{
+    padding: 2px;
+    color: #a99a86;
+    width: 43%;
+  }
+  .special_sec .container .row .s1{
+    font-size:139%;
+    /*margin: 3px;*/
+    color:red;
+    padding-left: 14px;
+   }
+   .special_sec .container .row .s2{
+    font-size:139%;
+    /*margin: 3px;*/
+    color:red;
+    padding-right:55px;
+    }
+    .special_sec .container .row .pera1{
+      letter-spacing: 1px;
+     font-family: Monaco;
+      font-style: italic;
+      font-size: 15px;
+      color: #556b2f; 
+      margin-top: 0.97rem;
+   }
+   .special_sec .container .row figure  .mi1 {
+    font-size: 90px;
+    color:#00d100; 
+    padding: -20px;
+  }
+  .special_sec .container .row figure .mtext2{
+    letter-spacing: 1px;
+    color:#343434;
+    text-shadow: 0px 0px 1px #000000;
+    font-size:22px;
+    padding-left: 5px;
+    padding-right:5px;
+  }
+}
+
+
+
+.footer_sec{
+  margin-top: 1rem;
+}
+.footer_sec .container-fluid .row .fr1  {
+    margin-top: 0.50rem;
+    margin-bottom: 0.50rem;
+}
+ .footer_sec .container-fluid .row  a i{
+  
+   padding: 8px;
+   font-size: 26px!important
+  }
+
+.footer_sec .container-fluid .row {
+   background-color: #6351ce;
+}
+.footer_sec .foot1{
+  margin-top: 0rem;
+}
+.footer_sec .foot1 h5{
+  margin-top: 10px;
+}
+
+.footer_sec hr{
+  color:#000000;
+  padding: 1.2px;
+  width:20%;
+}
+.foot1 ul{
+  margin-top: 1rem;
+  
+}
+
+ .footer_sec .container-fluid .row  span i {
+margin-right: 13px;
+font-size:18px;
+ }
+ .footer_sec .container-fluid .fr2  span{
+   margin-left: 25%;
+  
+ }
+ .foot1  .Home {
+   margin-top:1.5rem;
+ }
+ .foot1 .Envelope {
+   margin-top: 0.50rem;
+ }
+ .foot1 .Phone {
+   margin-top: 0.50rem;
+ }
+ .footer_sec .container-fluid .copy1{
+ 
+   background-color:rgba(0,0,0,0.9);
+ }
+ .footer_sec .container-fluid .copy1  {
+   margin-top: 0rem;
+   margin-bottom: 0rem;
+ }
+ .footer_sec .container-fluid .copy1 div{
+   margin-top: 5px;
+   margin-bottom: 5px;
+ }
+ .footer_sec .container-fluid .copy1 span i{
+    font-size: 18px;
+    margin-right:3px;
+   
+ } 
+ .footer_sec .container-fluid .copy1  span {
+   letter-spacing: 1px;
+   }
+
+   /* Start media query for footer*/
+
+   @media (min-width:992px) and (max-width:1200px){
+    .footer_sec .container-fluid .row  a i{
+  
+      padding: 8px;
+      font-size: 25px!important
+     }
+     .footer_sec .container-fluid .row  span i {
+      margin-right: 13px;
+      font-size:17px;
+       }
+       .footer_sec .container-fluid .copy1 span i{
+        font-size: 18px;
+        margin-right:3px;
+       
+     } 
+   }
+
+   @media (min-width:768px) and (max-width:992px){
+    .footer_sec .container-fluid .row .fr1  {
+      margin-top: 0.25rem;
+      margin-bottom: 0.25rem;
+  }
+    .footer_sec .container-fluid .row  a i{
+  
+      padding: 6px;
+      font-size: 22px!important
+     }
+     .footer_sec .foot1 h5{
+      margin-top: 8px;
+      font-size: 18px;
+    }
+    .footer_sec hr{
+      color:#000000;
+      padding: 1.2px;
+      width:21%;
+    }
+    .foot1 ul{
+      margin-top: 0.75rem;
+    }
+    .footer_sec .container-fluid .fr2  span{
+      font-size: 15px;
+      
+    }
+    .footer_sec .container-fluid .row  span i {
+      margin-right: 13px;
+      font-size:16px;
+       }
+       .footer_sec .container-fluid .copy1  span {
+        letter-spacing: 1px;
+        font-size: 15px;
+        }
+        .footer_sec .container-fluid .copy1 span i{
+          font-size: 16px;
+          margin-right:2px;
+         } 
+ }
+
+ @media (min-width:576px) and (max-width:768px){
+  .footer_sec .container-fluid .row .fr1  {
+    margin-top: 0.25rem;
+    margin-bottom: 0.25rem;
+}
+  .footer_sec .container-fluid .row  a i{
+
+    padding: 6px;
+    margin-right: 5px;
+    font-size: 20px!important
+   }
+   .footer_sec .foot1 h5{
+    margin-top: 8px;
+    font-size: 18px;
+  }
+  .footer_sec hr{
+    color:#000000;
+    padding: 1.2px;
+    width:26%;
+  }
+  .foot1 ul{
+    margin-top: 0.55rem;
+  } 
+  .foot1 ul li{
+    font-size: 15px;
+    margin-bottom: -2px;
+  }
+  .footer_sec .container-fluid .fr2  span{
+    font-size: 14px;
+   }
+   .footer_sec .container-fluid .fr2  span{
+    margin-left: 20%;
+   
+  }
+   .footer_sec .container-fluid .row  span i {
+    margin-right: 8px;
+    font-size:15px;
+     }
+     .footer_sec .container-fluid .copy1  span {
+      letter-spacing: 1px;
+      font-size: 14px;
+      }
+      .footer_sec .container-fluid .copy1 span i{
+        font-size: 15px;
+        margin-right:2px;
+       } 
+ }
+
+ @media (min-width:461px) and (max-width:576px){
+  .footer_sec .container-fluid .row  a i{
+
+    padding: 6px;
+    margin-right: 5px;
+    font-size: 20px!important
+   }
+   .footer_sec .container-fluid .row .fr1  {
+    margin-top: 0.30rem;
+    margin-bottom: 0.25rem;
+}
+.footer_sec .foot1 h5{
+  margin-top: 10px;
+  font-size: 18px;
+}
+.footer_sec hr{
+  color:#000000;
+  padding: 1.2px;
+  width:15%;
+}
+.foot1 ul{
+  margin-top: 0.55rem;
+} 
+.footer_sec .container-fluid .fr2  span{
+  font-size: 14px;
+  
+ }
+ .footer_sec .container-fluid .fr2  span{
+  margin-left: 36%;
+  
+ }
+ 
+ .footer_sec .container-fluid .row  span i {
+  margin-right: 8px;
+  font-size:15px;
+   }
+   .footer_sec .container-fluid .copy1  span {
+    letter-spacing: 1px;
+    font-size: 13.5px;
+    }
+    .footer_sec .container-fluid .copy1 span i{
+      font-size: 15px;
+      margin-right:2px;
+     } 
+ 
+ }
+ 
+ 
+    
